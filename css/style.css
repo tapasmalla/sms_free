@@ -1,0 +1,63 @@
+
+body{
+	background:rgb(140 0 190);
+	font-size: 16px;
+	font-family:Square721 BT;
+	color:black;
+
+}
+
+img{width:180px;height:auto;padding:10px 0 20px;}
+.menu{list-style:none;}
+.menu li{float:left;padding:40px 30px 0 0;}
+.menu li a{text-decoration:none;color:#eee; }
+.menu li a:hover{color:rgb(230 130 20); }
+.user{list-style:none;}
+.user li {float:right;padding:40px 0 0 30px;}
+.user li a{text-decoration:none;color:#eee;}
+.user li a:hover{color:rgb(230 130 20);transition: 1.0}
+.sub_menu{background:rgb(0 180 230);}
+.sub_menu ul{list-style:none;}
+.sub_menu ul li{float:left;padding:15px 25px 15px 0;}
+.sub_menu ul li a{text-decoration:none;color:#eee;text-transform: uppercase;}
+.sub_menu ul li a:hover{color:rgb(230 130 20);}
+.mid_part{background:#fff;padding:20px 0;}
+.mid_part img{width:100%;}
+.mid_part p{text-align:justify;}
+.orange_color{color:rgb(230 130 20);font-weight:20px;}
+.divider{border:1px lightgray;width:100%;border-style: dotted none dotted none;height:10px;
+	margin-bottom:30px}
+.library{padding:15px 0;}
+.sms_list{list-style:none;padding-left:0}
+.sms_list li{padding:10px 0;border-bottom:1px dashed lightgray;}
+.sms_list li a{text-decoration: none;color:black;}
+.sms_list li a:hover{color:rgb(230 130 20);}
+/*.library h2 span{color:rgb(230 130 20);}*/
+.glyphicon{font-size:22px;padding-right:7px;}
+.footer p{text-align:center;color:#fff;padding-top:10px;}
+*a:hover{color:rgb(230 130 20);}
+
+.mid_part .head{font: normal  'Bitter', serif;color: #2ca2d0;margin-bottom: 5px;}
+.register{background: #F8F8F8; border-radius: 6px;margin:15px 0;padding:5% 10%;
+	box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0, 0.5);}
+.register label{ display: block;font: 13px Arial, Helvetica, sans-serif;color: #888;margin:15px 0;font-size:15px;}
+.register input{display:block;width:95%;height:35px;border: 2px solid #fff;box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+		border-radius: 5px;}
+.register  .btn_register{padding:7px 25px;}
+
+.message_area{width:90%;height:200px;/*overflow: hidden;*/position:relative;}
+.message_area input{width:100%;}
+/*.message_area .group{position:absolute;top:0px;/*right:-300px;}*/
+.message_area .group:hover .group{color:red;}
+#contact_form select option{width:100%;}
+#contact_form input{width:85%;height:30px;margin:10px 0;}
+/*.contact{background: red;color:red;border-bottom: :solid;}*/
+.listdesign{list-style:none;padding:0;background:rgb(238 238 238);border-radius: 2px}
+.listdesign li{line-height: 30px;margin-left: 15px}
+.listdesign li a{text-decoration: none;color:#000;}
+.contact{list-style: none;/*border-bottom:2px dotted rgb(0 180 220);*/}
+
+select{width:100%;color:red;}
+
+.list-group{margin-bottom:10px;}
+.list-group-item{padding:5px 10px;}
